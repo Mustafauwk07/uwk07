@@ -1,0 +1,71 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+p{
+	margin: 0px;
+}
+strong{
+	color: #ab0e10;
+	text-align: center;
+	font-size: 1.5em
+}
+
+.pics{
+
+}
+ 
+ #pic1{
+ 	position: relative;
+ 	height: 94vh;
+ 	width: 90vw;
+
+ 	padding-top: 3vh;
+ 	padding-bottom: 3vh;
+ 	padding-left: 4vw;
+ 	padding-right: 6vw;
+
+ 	background-image: url("pic-1.jpg");
+ 	background-size: cover;
+ 	background-position: center;
+
+ 	text-align: right;
+ 	color: white;
+	font-size: 4vmin
+}
+
+#pic1-sec1{
+	position: absolute;
+	right:0px;
+	top: 0;
+
+	width: 70%;
+
+	margin-top: 3vh;
+ 	margin-bottom: 3vh;
+ 	margin-left: 4vw;
+ 	margin-right: 6vw;
+ }
+
+#pic1-sec2{
+	position: absolute;
+	right:0px;
+	top: 45%;
+
+	width: 44%;
+
+	margin-top: 3vh;
+ 	margin-bottom: 3vh;
+ 	margin-left: 4vw;
+ 	margin-right: 6vw;
+
+ 	font-size: 1em;
+ 	text-align: left;
+}
+
+#audioControls{
+	/*width: 70%;*/
+	/*height: 1em;*/
+	margin-top: 10px;
+}
